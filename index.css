@@ -74,7 +74,8 @@ body{
 /*---------------------------------------------------------------------*/
 
 .containers {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   margin-top: 55rem;
   width: 55%;
@@ -209,8 +210,9 @@ body{
 
   .containers {
     display: flex;
-    width: 100%;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 50rem;
+    flex-wrap: wrap;
     border: 1px solid black;
   }
 
